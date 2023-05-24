@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
+import imagen from "../assets/img/imagen.jpg"
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -55,10 +56,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <img className="img-personal" src={imagen}/>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Damian`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Professional Developer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a recent graduate full stack web development, with knowledge in React, Angular and Vue. On the Back-end side, I manage Java with Spring, JWT, and in Databases, H2, SQL, and Postgres, in addition to having the necessary notions to take a project from scratch to its deployment in production: Agile Methodologies, Design Thinking , Git, Slack, Jira, Docker and Docker Compose.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <h1>{`Hi! I'm Damian Cano`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Professional Developer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>A professional developer with a passion for solving problems with code. I started my journey into the world of software development a few one years ago, and since then I've been constantly learning and improving my skills. At the moment I have no experience working for a company., but I'm always looking for opportunities to branch out and explore new technologies.</p>
               </div>}
             </TrackVisibility>
           </Col>
