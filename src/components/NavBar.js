@@ -48,8 +48,8 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                  <a href="https://www.linkedin.com/in/carlos-damian-cano-lopez-399812260/" target="_blank" style={{textDecoration: 'none', color: 'white'}}><img src={navIcon1} alt="" /></a>
-                  <a href="https://github.com/DamianCanoLopez" target="_blank" style={{textDecoration: 'none', color: 'white'}}><img src={navIcon4} alt="" /></a>
+                  <a href="https://www.linkedin.com/in/carlos-damian-cano-lopez-399812260/" style={{textDecoration: 'none', color: 'white'}}><img src={navIcon1} alt="" /></a>
+                  <a href="https://github.com/DamianCanoLopez" style={{textDecoration: 'none', color: 'white'}}><img src={navIcon4} alt="" /></a>
                 </div>
               </span>
             </Navbar.Collapse>

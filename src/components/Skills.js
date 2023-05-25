@@ -35,19 +35,19 @@ export const Skills = () => {
                         <p>In this section are the skills in which I have greater knowledge, and mastery, in the area of ​​programming.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image1" />
                                 <h5>Back-end</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Image3" />
                                 <h5>Front-End</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Image3" />
                                 <h5>Data Bases</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image1" />
                                 <h5>Agile methodologies</h5>
                             </div>
                         </Carousel>
@@ -55,7 +55,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Image4" />
     </section>
   )
 }
