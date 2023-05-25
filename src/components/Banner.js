@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import imagen from "../assets/img/imagen.jpg"
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import photo from "../assets/img/imagen.jpg"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -56,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <img className="img-personal" src={imagen}/>
+                <img className="img-personal" src={photo}/>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Damian Cano`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Professional Developer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A professional developer with a passion for solving problems with code. I started my journey into the world of software development a few one years ago, and since then I've been constantly learning and improving my skills. At the moment I have no experience working for a company., but I'm always looking for opportunities to branch out and explore new technologies.</p>
