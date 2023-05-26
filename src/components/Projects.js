@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-2-vueJS.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -12,6 +13,11 @@ export const Projects = () => {
       description: "Development of functions and visualization",
       imgUrl: projImg1,
       UrlWeb: "https://dentalclinic1react.netlify.app/"
+    },{
+      title: "Form VueJs",
+      description: "Development of functions and visualization in Vue JS",
+      imgUrl: projImg2,
+      UrlWeb: "https://form-vuejs2023.netlify.app/"
     }
   ];
 
