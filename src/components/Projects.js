@@ -35,7 +35,7 @@ export const Projects = () => {
       title: "Fake api vue js consumption",
       description: "Development of functions and visualization in Vue JS",
       imgUrl: projImg5,
-      UrlWeb: "https://form-basic-html-css-js.netlify.app/"
+      UrlWeb: "https://fake-api-vue-js-consumption.netlify.app/"
     }
   ];
 
