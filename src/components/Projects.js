@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-2-vueJS.png"
 import projImg3 from "../assets/img/project-3-HTML-CSS-Static.png"
 import projImg4 from "../assets/img/project-4-HTML-CSS-JS.png"
+import projImg5 from "../assets/img/Project-5-vueJs.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -29,6 +30,11 @@ export const Projects = () => {
       title: "Dynamic form in html css and js",
       description: "Development of functions in js and visualization in html and css",
       imgUrl: projImg4,
+      UrlWeb: "https://form-basic-html-css-js.netlify.app/"
+    },{
+      title: "Fake api vue js consumption",
+      description: "Development of functions and visualization in Vue JS",
+      imgUrl: projImg5,
       UrlWeb: "https://form-basic-html-css-js.netlify.app/"
     }
   ];
