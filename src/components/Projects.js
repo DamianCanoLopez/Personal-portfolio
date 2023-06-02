@@ -1,10 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-2-vueJS.png"
-import projImg3 from "../assets/img/project-3-HTML-CSS-Static.png"
-import projImg4 from "../assets/img/project-4-HTML-CSS-JS.png"
-import projImg5 from "../assets/img/Project-5-vueJs.png"
+import projImg2 from "../assets/img/project-2-vueJS.png";
+import projImg3 from "../assets/img/project-3-HTML-CSS-Static.png";
+import projImg4 from "../assets/img/project-4-HTML-CSS-JS.png";
+import projImg5 from "../assets/img/Project-5-vueJs.png";
+import projImg6 from "../assets/img/project-6-Next-js.PNG"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -36,6 +37,11 @@ export const Projects = () => {
       description: "Development of functions and visualization in Vue JS",
       imgUrl: projImg5,
       UrlWeb: "https://fake-api-vue-js-consumption.netlify.app/"
+    },{
+      title: "Rick and Morty Next js consumption",
+      description: "Development of functions and visualization in Next JS",
+      imgUrl: projImg6,
+      UrlWeb: "https://rick-and-morty-next-js-sandy.vercel.app/"
     }
   ];
 
