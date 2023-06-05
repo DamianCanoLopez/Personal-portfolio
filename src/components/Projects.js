@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-3-HTML-CSS-Static.png";
 import projImg4 from "../assets/img/project-4-HTML-CSS-JS.png";
 import projImg5 from "../assets/img/Project-5-vueJs.png";
 import projImg6 from "../assets/img/project-6-Next-js.PNG"
+import projImg7 from "../assets/img/project-7-vue-js.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -23,25 +24,30 @@ export const Projects = () => {
       imgUrl: projImg2,
       UrlWeb: "https://form-vuejs2023.netlify.app/"
     },{
-      title: "Static layout in html css",
-      description: "Desktop and mobile view with html and css",
-      imgUrl: projImg3,
-      UrlWeb: "https://maquetado-html-css.netlify.app/"
-    },{
-      title: "Dynamic form in html css and js",
-      description: "Development of functions in js and visualization in html and css",
-      imgUrl: projImg4,
-      UrlWeb: "https://form-basic-html-css-js.netlify.app/"
+      title: "Rick and Morty Next js consumption",
+      description: "Development of functions and visualization in Next JS",
+      imgUrl: projImg6,
+      UrlWeb: "https://rick-and-morty-next-js-sandy.vercel.app/"
     },{
       title: "Fake api vue js consumption",
       description: "Development of functions and visualization in Vue JS",
       imgUrl: projImg5,
       UrlWeb: "https://fake-api-vue-js-consumption.netlify.app/"
     },{
-      title: "Rick and Morty Next js consumption",
-      description: "Development of functions and visualization in Next JS",
-      imgUrl: projImg6,
-      UrlWeb: "https://rick-and-morty-next-js-sandy.vercel.app/"
+      title: "Todo App",
+      description: "Development of functions and visualization in Vue JS",
+      imgUrl: projImg7,
+      UrlWeb: "https://todo-app-cdcl.netlify.app/"
+    },{
+      title: "Dynamic form in html css and js",
+      description: "Development of functions in js and visualization in html and css",
+      imgUrl: projImg4,
+      UrlWeb: "https://form-basic-html-css-js.netlify.app/"
+    },{
+      title: "Static layout in html css",
+      description: "Desktop and mobile view with html and css",
+      imgUrl: projImg3,
+      UrlWeb: "https://maquetado-html-css.netlify.app/"
     }
   ];
 
@@ -71,7 +77,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          projects.slice(0, 6).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -83,7 +89,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>New projects with the next update 😀</p>
+                      <Row>
+                        {
+                          projects.slice(6).map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                              />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>New projects with the next update 😀</p>
