@@ -7,6 +7,7 @@ import projImg4 from "../assets/img/project-4-HTML-CSS-JS.png";
 import projImg5 from "../assets/img/Project-5-vueJs.png";
 import projImg6 from "../assets/img/project-6-Next-js.PNG"
 import projImg7 from "../assets/img/project-7-vue-js.png"
+import projImg8 from "../assets/img/project-8-vue-js.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -38,6 +39,11 @@ export const Projects = () => {
       description: "Development of functions and visualization in Vue JS",
       imgUrl: projImg7,
       UrlWeb: "https://todo-app-cdcl.netlify.app/"
+    },{
+      title: "Task Board",
+      description: "Development of functions and visualization in Vue JS",
+      imgUrl: projImg8,
+      UrlWeb: "https://task-board-cdcl.netlify.app/"
     },{
       title: "Dynamic form in html css and js",
       description: "Development of functions in js and visualization in html and css",
