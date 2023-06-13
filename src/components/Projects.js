@@ -8,7 +8,7 @@ import projImg5 from "../assets/img/Project-5-vueJs.png";
 import projImg6 from "../assets/img/project-6-Next-js.PNG"
 import projImg7 from "../assets/img/project-7-vue-js.png"
 import projImg8 from "../assets/img/project-8-vue-js.png"
-import projImg9 from "../assets/img/project-9-vue-js.png"
+import projImg9 from "../assets/img/project-9-vue-js.PNG"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
