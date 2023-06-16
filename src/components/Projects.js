@@ -9,6 +9,7 @@ import projImg6 from "../assets/img/project-6-Next-js.PNG"
 import projImg7 from "../assets/img/project-7-vue-js.png"
 import projImg8 from "../assets/img/project-8-vue-js.png"
 import projImg9 from "../assets/img/project-9-vue-js.PNG"
+import projImg10 from "../assets/img/project-10-vue-js.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -45,6 +46,11 @@ export const Projects = () => {
       description: "Development of functions and visualization in Vue JS",
       imgUrl: projImg9,
       UrlWeb: "https://split-bill-app-cdcl.netlify.app/"
+    },{
+      title: "RSS Reader",
+      description: "Development of functions and visualization in Vue JS",
+      imgUrl: projImg10,
+      UrlWeb: "https://rss-reader-cdcl-v1.netlify.app/"
     },{
       title: "Fake api vue js consumption",
       description: "Development of functions and visualization in Vue JS",
